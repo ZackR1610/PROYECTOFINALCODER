@@ -1,0 +1,26 @@
+.header,
+.header-songs {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../img/martin\ experience.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.header-songs {
+    height: 240px;
+}
+
+.Logo {
+    color: aliceblue;
+    height: auto;
+    max-width: 100%;
+    justify-content: left;
+    text-decoration: none;
+    padding: 20px;
+}
