@@ -1,6 +1,12 @@
-@import "header";
-@import "body";
-@import "footer";
+$color-backg: rgba(0, 0, 0, 0.679);
+$color-subt: #a1a1a1;
+$color-footer: #000000;
+$color-titles: #ffffff;
+
+@import "header.scss";
+@import "body.scss";
+@import "footer.scss";
+@import "mediaqueries.scss";
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 

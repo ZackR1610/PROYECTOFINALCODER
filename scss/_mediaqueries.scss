@@ -53,6 +53,8 @@
     }
   }
 
+/*   AJUSTA VISIBILIDAD DE MÓVILES SOBRE GALERÍA */
+
   @media (max-width: 280px) {
     .photo-gallery {
       flex-direction: column-reverse;
