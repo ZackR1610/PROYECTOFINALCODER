@@ -1,0 +1,60 @@
+@media (max-width: 768px) {
+    .header-contentcontainer {
+      text-align: center;
+    }
+  }
+
+  /* Responsive */
+@media (max-width: 767px) {
+    .footer-col {
+      width: 50%;
+      margin-bottom: 30px;
+    }
+  }
+  
+  @media (max-width: 574px) {
+    .footer-col {
+      width: 100%;
+    }
+  }
+
+
+  /*Cards*/
+
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    .container-card {
+      flex-wrap: wrap;
+    }
+  
+    .card {
+      margin: 15px;
+    }
+  }
+  
+  /*Fin-Cards*/
+
+  @media (max-width: 767px) {
+    .header-content p {
+      padding: 0 20px;
+  
+      /* Ajusta el padding para dispositivos móviles */
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .career {
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .festival-1, .text-wrapper {
+      display: block;
+    }
+  }
+
+  @media (max-width: 280px) {
+    .photo-gallery {
+      flex-direction: column-reverse;
+    }
+  }

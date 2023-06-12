@@ -1,7 +1,5 @@
-.header,
-.header-songs  {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url(../img/martinexperience.jpg);
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/martinexperience.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,18 +8,184 @@
     padding: 20px 5%;
     box-sizing: border-box;
     transition: 0.5s;
-}
-
-.header-songs {
-   
+  }
+  
+  .header-songs {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/martinexperience.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+    box-sizing: border-box;
+    transition: 0.5s;
     height: 240px;
-}
-
-.Logo {
+  }
+  
+  .Logo {
     color: aliceblue;
     height: auto;
     max-width: 100%;
     justify-content: left;
     text-decoration: none;
     padding: 20px;
-}
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    .navbar ul li {
+      position: relative;
+      float: left;
+      display: flex;
+  
+      a {
+        .navbar {
+          font-size: 18px;
+          padding: 20px;
+          color: #fffdfc;
+          font-weight: 600;
+        }
+  
+        &:hover {
+          color: #c6c8c6;
+        }
+      }
+    }
+  }
+  
+  #menu {
+    display: none;
+  }
+  
+  .menu-icono {
+    width: 25px;
+  }
+  
+  .menu label {
+    cursor: pointer;
+    display: none;
+  }
+  
+  .header-content {
+    text-align: center;
+  
+    h1 {
+      font-size: 75px;
+      line-height: 80;
+      color: #fffdfc;
+      text-transform: uppercase;
+      margin-bottom: 35px;
+    }
+  
+    p {
+      font-size: 16px;
+      color: #ffffff;
+      padding: 0 250px;
+      margin-bottom: 25px;
+    }
+  }
+  
+  .header-contentcontainer {
+    text-align: center;
+    padding: 0 20px;
+  
+    /* Ajusta el padding según sea necesario */
+  
+    h1 {
+      color: #a1a1a1;
+      font-size: 30px;
+  
+      /* Ajusta el tamaño de fuente según sea necesario */
+      line-height: 40px;
+  
+      /* Ajusta el interlineado según sea necesario */
+      margin-bottom: 15px;
+    }
+  
+    p {
+      color: rgb(255, 255, 255);
+      font-size: 21px;
+      width: 100%;
+  
+      /* Ajusta el ancho del párrafo según sea necesario */
+      margin-bottom: 25px;
+      text-align: justify;
+  
+      /* Ajusta la alineación del texto según sea necesario */
+    }
+  }
+
+  .black-class {
+    background: rgb(23, 23, 23);
+    border-bottom: 1px solid white;
+    justify-content: center;
+  }
+
+  .menu .navbar ul {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    justify-items: center;
+  
+    li {
+      margin: 10px;
+      list-style: none;
+  
+      a {
+        font-size: 18px;
+        padding: 20px;
+        color: #fffdfc;
+        font-weight: 100;
+        text-align: center;
+      }
+    }
+  }
+
+  .header-login {
+    background-image: none;
+  }
+  
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: table;
+  }
+  
+  .header, .header-songs {
+    /* Resto de tus estilos */
+    background-size: cover;
+  
+    /* Puedes ajustar esto según tus necesidades */
+  }
+  
+  .header {
+    background-size: cover;
+  }
+
+  .navbar, .black-class {
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+  }
+  
+  .navbar-login {
+    display: table-column-group;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
