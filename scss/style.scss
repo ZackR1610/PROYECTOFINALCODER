@@ -3,17 +3,10 @@ $color-subt: #a1a1a1;
 $color-footer: #000000;
 $color-titles: #ffffff;
 
+@import "reset.scss";
 @import "header.scss";
 @import "body.scss";
 @import "footer.scss";
 @import "mediaqueries.scss";
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-}

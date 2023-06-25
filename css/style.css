@@ -1,5 +1,12 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none; }
+
 .header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.679), rgba(0, 0, 0, 0.679)), url(../img/martinexperience.jpg);
   background-position: center;
@@ -278,9 +285,9 @@ form {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   text-align: center;
-  width: 260px;
+  width: 500px;
   position: absolute;
-  top: 10%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, 32%); }
 
@@ -296,7 +303,7 @@ form {
 
 p {
   font-size: 16px;
-  color: #686868;
+  color: #838383;
   margin-bottom: 20px; }
 
 .line {
@@ -306,7 +313,7 @@ p {
   background: linear-gradient(90deg, #181818 0% #b7b7b7 77%); }
 
 label {
-  color: #303031;
+  color: #7c7c7c;
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 15px; }
@@ -352,13 +359,64 @@ input {
   .btn-1:hover {
     background-color: #42444292; }
 
+.form {
+  width: 60%;
+  margin: 0 auto; }
+  .form .form-register {
+    width: 100%;
+    background: #000000e3;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Bebas Neue', cursive;
+    color: #9f9f9f;
+    box-shadow: 7px 13px 37px #000;
+    text-align: center; }
+    .form .form-register h4 {
+      font-size: 22px;
+      margin-bottom: 20px; }
+
+.controls {
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #615e5e;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 18px;
+  color: #6d6868;
+  margin: 15px auto;
+  width: 80%; }
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px; }
+
+.form-register a {
+  color: white;
+  text-decoration: none; }
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline; }
+
+.form-register .botons {
+  width: 200px;
+  background: #4a4a4c;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px; }
+
 /*Cards*/
 .container-card {
   width: 100%;
   display: flex;
   max-width: 1100px;
   margin: auto;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap; }
 
 .onsale {
@@ -629,7 +687,9 @@ ul {
 @media (max-width: 767px) {
   .header-content p {
     padding: 0 20px;
-    /* Ajusta el padding para dispositivos móviles */ } }
+    /* Ajusta el padding para dispositivos móviles */ }
+  .form {
+    width: 100%; } }
 
 @media (max-width: 767px) {
   .career {
@@ -643,10 +703,3 @@ ul {
 @media (max-width: 280px) {
   .photo-gallery {
     flex-direction: column-reverse; } }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none; }
